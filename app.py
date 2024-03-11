@@ -1,8 +1,6 @@
-# Banking Website
+#Banking Website
 from flask import Flask, render_template, request, session, url_for, redirect
-
 from flask.globals import request
-
 from functions import Bank
 
 app = Flask(__name__)
