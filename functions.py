@@ -11,7 +11,7 @@ class User():
     return result  
 
 #child class
-  
+# here we use inheritance concept 
 class Bank(User):
   def __init__(self, name):
     super().__init__(name)
